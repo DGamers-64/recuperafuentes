@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import IniCio from "@/components/IniCio.vue";
+import AcerCa from "@/components/AcerCa.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -7,7 +8,7 @@ const router = createRouter({
     {
       path: "/",
       component: IniCio
-    }//,
+    },
     // {
     //   path: "/empleados",
     //   component: EmpLeados
@@ -20,10 +21,10 @@ const router = createRouter({
     //   path: "/estadisticas",
     //   component: EstaDisticas
     // },
-    // {
-    //   path: "/about",
-    //   component: AcerCa
-    // }
+    {
+      path: "/about",
+      component: AcerCa
+    }
   ],
 })
 
