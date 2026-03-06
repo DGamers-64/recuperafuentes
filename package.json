@@ -1,5 +1,5 @@
 {
-  "name": "recupera_fuentes",
+  "name": "recuperafuentes",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -9,7 +9,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.5.29"
+    "boostrap": "^2.0.0",
+    "fontawesome": "^5.6.3",
+    "sweetalert2": "^11.26.21",
+    "vue": "^3.5.29",
+    "vue-router": "^5.0.3"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.4",
